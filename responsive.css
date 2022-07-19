@@ -40,6 +40,10 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 60px 79px;
     }
+    .blog-image ,.blog-image img{
+        width:100%;
+        height: auto;
+    }
 }
 @media only screen and (max-width:360px)
 {
