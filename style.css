@@ -113,10 +113,13 @@ main{
     margin-bottom: 28px;
 }
 
-.card-box{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    column-gap: 25px;
+.card-box {
+    display: flex;
+    /* column-gap: 15px; */
+    row-gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
 }
 .card-item{
     width:250px;
